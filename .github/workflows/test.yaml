@@ -1,0 +1,13 @@
+name: Test Job
+on: workflow_dispatch
+
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Welcome script
+        run: echo Hellow script
+      
+      - name: Finish script
+        run: echo Build in!
