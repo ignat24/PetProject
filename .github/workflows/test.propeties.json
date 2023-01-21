@@ -1,0 +1,12 @@
+{
+    "name": "Test Workflow",
+    "description": "First workflow",
+    "iconName": "example-icon",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile"
+    ]
+}
