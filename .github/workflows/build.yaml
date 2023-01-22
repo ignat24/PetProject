@@ -3,7 +3,7 @@ name: Build Image
 on: 
   push: 
     branches:
-      - 'Simple-CI-CD'
+      - 'main'
 
 jobs:
   build-docker:
